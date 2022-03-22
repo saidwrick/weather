@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid grey;
+    height: 250px;
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 54px;
+}
+
+.location{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+input{
+    all: unset;
+    outline: 1px solid grey;
+    height: 20px;
+    width: 300px;
+    padding-left: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+    text-align: left;
+    margin-left: 35px;
+}
+
+button{
+    all: unset;
+    background-color: lightgrey;
+    padding: 2px 10px;
+    outline: 1px solid grey;
+}
+
+button:hover{
+    background-color: white;
+}
